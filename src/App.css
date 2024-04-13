@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+/* Default styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+/* User Profile styles */
+.user-profile {
+  margin-bottom: 20px;
+}
+
+.actions button {
+  margin-right: 10px;
+}
+
+/* Orders styles */
+.orders {
+  margin-bottom: 20px;
+}
+
+.order {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.order h3 {
+  margin-bottom: 5px;
+}
+
+/* Top Students styles */
+.top-students {
+  margin-bottom: 20px;
+}
+
+.student-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.student {
+  flex: 0 0 48%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Reviews styles */
+.reviews {
+  margin-bottom: 20px;
+}
+
+.review-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.review {
+  flex: 0 0 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .user-profile, .orders, .top-students, .reviews {
+    padding: 10px;
+  }
+
+  .order, .student, .review {
+    flex: 0 0 100%;
+  }
+}
