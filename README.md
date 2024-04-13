@@ -23,7 +23,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/karo-abhyaas-web-app.git
+git clone https://github.com/Sainath965/karo-abhyaas-web-app.git
 
 2. Navigate to the project directory:
 
