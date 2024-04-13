@@ -3,7 +3,7 @@ In this project, let's build a **KaroAbhayaas** app by applying the concepts of 
 
 <br/>
 <div style="text-align: center;">
-    <img src="https://ibb.co/rMQ0Gw6" alt="desktop-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+    <img src="https://postimg.cc/zysg0WLQ" alt="desktop-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
 </div>
 <br/>
 
