@@ -5,17 +5,21 @@
 This is the repository for the Karo Abhyaas web application, which is built using React.js. The application provides a platform for students to access educational resources and services to prepare for exams like NEET.
 
 ## Project Structure
+The project directory is organized as follows:
 
-karo-abhyaas-web-app/
-public/            # Public assets and index.html
-src/               # Source code
-   components/     # React components
-   styles/         # CSS stylesheets
-   App.js          # Main application component
-   index.js        # Entry point of the application
-package.json       # Project dependencies and scripts
-README.md          # Project documentation
+Public: This directory contains public assets and the main index.html file. It serves as the root of the web server and is accessible to the public.
 
+Source (src): This directory contains all the source code for the application. It includes:
+
+Components: This directory houses React components, each organized into separate files for better modularity and organization.
+
+App.js: This is the main application component, acting as the container for other components and defining the overall structure of the application.
+
+index.js: This is the entry point of the application. It initializes React and renders the root component onto the HTML page.
+
+Package.json: This file defines project dependencies, scripts for running, testing, and building the application, as well as other metadata about the project.
+
+README.md: This file serves as the project's documentation. It provides an overview of the project, instructions for running the application, and other relevant information.
 
 ## Getting Started
 
