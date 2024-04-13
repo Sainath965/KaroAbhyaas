@@ -1,121 +1,57 @@
-In this project, let's build a **KaroAbhayaas** app by applying the concepts of ReactJS concepts.
-### Refer to the image below:
+# Karo Abhyaas Web Application
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://postimg.cc/zysg0WLQ" alt="desktop-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+## Overview
 
-### Design Files
+This is the repository for the Karo Abhyaas web application, which is built using React.js. The application provides a platform for students to access educational resources and services to prepare for exams like NEET.
 
-<details>
-<summary>Click to view</summary>
+## Project Structure
 
-- [Extra Small (Size < 576px), Small (Size >= 576px), Medium (Size >= 768px)](https://assets.ccbp.in/frontend/content/react-js/routing-practice-sm-output.png)
-- [Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/routing-practice-lg-output.png)
+karo-abhyaas-web-app/
+public/            # Public assets and index.html
+src/               # Source code
+   components/     # React components
+   styles/         # CSS stylesheets
+   App.js          # Main application component
+   index.js        # Entry point of the application
+package.json       # Project dependencies and scripts
+README.md          # Project documentation
 
-</details>
 
-### Set Up Instructions
+## Getting Started
 
-<details>
-<summary>Click to view</summary>
+To run the project locally, follow these steps:
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
+1. Clone the repository:
 
-### Completion Instructions
+git clone https://github.com/your-username/karo-abhyaas-web-app.git
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
+2. Navigate to the project directory:
 
-The app must have the following functionalities
+cd karo-abhyaas-web-app
 
-- When the **About** link in the header is clicked, then the page should navigate to the `AboutRoute`
-- When the **Contact** link in the header is clicked, then the page should navigate to the `ContactRoute`
-- When the **Home** link in the header is clicked, then the page should navigate back to the `HomeRoute`
-- When an undefined path is provided in the URL, then the page should navigate to the `NotFoundRoute`
 
-</details>
+3. Install dependencies:
 
-<details>
-<summary>Components Structure</summary>
+npm install
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/routing-practice-home-about-component-breakdown-structure.png" alt="" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/routing-practice-contact-not-found-component-breakdown-structure.png" alt="" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-</details>
+4. Start the development server:
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
+npm start
 
-Use these files to complete the implementation:
+5. Open your browser and visit `http://localhost:3000` to view the application.
 
-- `src/components/App.js`
-- `src/components/App.css`
-- `src/components/Header/index.js`
-- `src/components/Header/index.css`
-- `src/components/Home/index.js`
-- `src/components/Home/index.css`
-- `src/components/About/index.js`
-- `src/components/About/index.css`
-- `src/components/Contact/index.js`
-- `src/components/Contact/index.css`
-- `src/components/NotFound/index.js`
-- `src/components/NotFound/index.css`
-</details>
+## Available Scripts
 
-### Important Note
+In the project directory, you can run:
 
-<details>
-<summary>Click to view</summary>
+- `npm start`: Runs the app in development mode.
+- `npm test`: Launches the test runner.
+- `npm run build`: Builds the app for production.
 
-<br/>
+## Contributing
 
-**The following instructions are required for the tests to pass**
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
 
-- `HomeRoute` should consist of "/" in the URL path
-- `AboutRoute` should consist of "/about" in the URL path
-- `ContactRoute` should consist of "/contact" in the URL path
-- No need to use the `BrowserRouter` in `App.js` as we have already included in `index.js` file
+## License
 
-</details>
-
-### Resources
-
-<details>
-<summary>Image URLs</summary>
-
-- [https://assets.ccbp.in/frontend/react-js/wave-logo-img.png](https://assets.ccbp.in/frontend/react-js/wave-logo-img.png) alt should be **wave**
-- [https://assets.ccbp.in/frontend/react-js/home-blog-img.png](https://assets.ccbp.in/frontend/react-js/home-blog-img.png) alt should be **home**
-- [https://assets.ccbp.in/frontend/react-js/about-blog-img.png](https://assets.ccbp.in/frontend/react-js/about-blog-img.png) alt should be **about**
-- [https://assets.ccbp.in/frontend/react-js/contact-blog-img.png](https://assets.ccbp.in/frontend/react-js/contact-blog-img.png) alt should be **contact**
-- [https://assets.ccbp.in/frontend/react-js/not-found-blog-img.png](https://assets.ccbp.in/frontend/react-js/not-found-blog-img.png) alt should be **not found**
-
-</details>
-
-<details>
-<summary>Colors</summary>
-
-<br/>
-
-<div style="background-color: #6d396b; width: 150px; padding: 10px; color: white">Hex: #6d396b</div>
-<div style="background-color: #555555; width: 150px; padding: 10px; color: white">Hex: #555555</div>
-<div style="background-color: #551e53; width: 150px; padding: 10px; color: white">Hex: #551e53</div>
-<div style="background-color: #12022f; width: 150px; padding: 10px; color: white">Hex: #12022f</div>
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Roboto Mono
+This project is licensed under the [MIT License](LICENSE).
